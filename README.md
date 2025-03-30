@@ -54,40 +54,39 @@ The model is evaluated using:
 
 Below is the flowchart illustrating the email spam classification process:
 
-+------------------+
-|  Load Dataset    |
-+------------------+
-       |
-       v
-+------------------+
-| Data Preprocessing |
-+------------------+
-       |
-       v
-+------------------+
-| Feature Extraction |
-+------------------+
-      |
-      v
-+------------------+
-| Model Training    |
-+------------------+
-       |
-       v
-+------------------+
-| Model Evaluation  |
-+------------------+
-       |
-       v
-+------------------+
-|  Prediction       |
-+------------------+
-       |
-       v
-+------------------+
-|  Deployment       |
-+------------------+
-
+              +------------------+
+              |  Load Dataset    |
+              +------------------+
+                      |
+                      v
+              +------------------+
+              | Data Preprocessing |
+              +------------------+
+                      |
+                      v
+              +------------------+
+              | Feature Extraction |
+              +------------------+
+                      |
+                      v
+              +------------------+
+              | Model Training   |
+              +------------------+
+                      |
+                      v
+              +------------------+
+              | Model Evaluation |
+              +------------------+
+                      |
+                      v
+              +------------------+
+              |  Prediction      |
+              +------------------+
+                      |
+                      v
+              +------------------+
+              |  Deployment      |
+              +------------------+
 
 ## **Future Enhancements**
 
