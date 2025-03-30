@@ -29,4 +29,72 @@ We use the **SpamAssassin Public Corpus** or the **UCI Machine Learning Reposito
 
 ## **Installation**
 
-1. Clone the repository:
+1. Clone the repository: https://github.com/princekumar72550/Email-Spam-Classifier
+2. Navigate to the project directory: cd email-spam-classification
+3. Install dependencies: pip install -r requirements.txt
+
+## **Usage**
+
+1. Preprocess the dataset: python preprocess.py
+2. Train the model: python train.py
+3. Test the model: python test.py
+4. 4. Run the web application: python app.py
+
+
+## **Model Performance**
+
+The model is evaluated using:
+
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-score**
+
+## **Flowchart**
+
+Below is the flowchart illustrating the email spam classification process:
+
++------------------+
+|  Load Dataset    |
++------------------+
+       |
+       v
++------------------+
+| Data Preprocessing |
++------------------+
+       |
+       v
++------------------+
+| Feature Extraction |
++------------------+
+      |
+      v
++------------------+
+| Model Training    |
++------------------+
+       |
+       v
++------------------+
+| Model Evaluation  |
++------------------+
+       |
+       v
++------------------+
+|  Prediction       |
++------------------+
+       |
+       v
++------------------+
+|  Deployment       |
++------------------+
+
+
+## **Future Enhancements**
+
+- Implement deep learning models (LSTMs, Transformers)
+- Improve feature extraction techniques
+- Deploy the model as a web service
+
+## **Contributing**
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
